@@ -11,6 +11,7 @@ Backup all your Bitbucket Repositories with this Shell Script. No extra packages
 
 ## How to Configure
 - Download the latest release from github to the backup server.
+<pre>wget https://raw.githubusercontent.com/redhatjobin/bitbucket-backup/master/bitbucket-backup.sh</pre>
 - Open the file bitbucket-backup.sh and add the below variables.
 
     <pre>bbuser='Username_here' #Bitbucket Username
