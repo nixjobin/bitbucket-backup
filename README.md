@@ -19,6 +19,6 @@ Backup all your Bitbucket Repositories with this Shell Script. No extra packages
     </pre>
 
 ## How to Create App Password
-      Go to https://bitbucket.org/account/user/username/app-passwords , click *Generate App Password*
-      Give *Read* Permissions to Account, Team , Projects, Repositories
+- Go to https://bitbucket.org/account/user/<username>/app-passwords , click *Generate App Password*
+- Give *Read* Permissions to Account, Team , Projects, Repositories
 
