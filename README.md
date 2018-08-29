@@ -26,6 +26,6 @@ Backup all your Bitbucket Repositories with this Shell Script. No extra packages
 
 ## How to add cron
 
-- You can run <pre>crontab -e</pre> command to edit the contab. You can add the script under any user.
+- You can run <code>crontab -e</code> command to edit the contab. You can add the script under any user.
 - The below cron sample will run the backup at 3 AM every day.
 <pre> 0 3 * * * /usr/local/src/bitbucket-backup.sh</pre>
