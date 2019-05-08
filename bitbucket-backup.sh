@@ -42,7 +42,7 @@ cd $fname
 #bare clone
 for repo in `cat ../bitbucketurls` ; do
 echo "========== Cloning $repo =========="
-git clone --bare $repo
+git clone $repo
 done
 }
 
