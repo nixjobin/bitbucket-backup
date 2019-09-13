@@ -23,7 +23,7 @@ tr -d '"{}[]' < bitbucket.2 > bitbucket.3
 
 #Processing
 cat bitbucket.3 |grep -i uri |cut -d":" -f2 >bitbucket.4
-sed 's/\/1\.0\/repositories\///g' bitbucket.4 > bitbucket.5
+sed 's/\/api\/1\.0\/repositories\///g' bitbucket.4 > bitbucket.5
 cat bitbucket.5 |grep $bbuser > bitbucket.6
 
 #make it a gir utl
@@ -42,7 +42,7 @@ cd $fname
 #bare clone
 for repo in `cat ../bitbucketurls` ; do
 echo "========== Cloning $repo =========="
-git clone --bare $repo
+git clone $repo
 done
 }
 
